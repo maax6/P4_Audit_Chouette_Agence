@@ -692,7 +692,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 22px;
+    font-size: 1em;
     font-weight: 700;
 }
 
@@ -768,23 +768,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #8f3206;
     color: black;
 }
 
 .tc-white {
     color: #f7f7f7!important;
-    font-size: 40px;
+    font-size: 24px;
 
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #8f3206;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #533a2e!important;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +797,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f36c6c!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #533a2e!important;
 }
 
 .icon-dark-slate-blue {
@@ -1064,31 +1064,34 @@ h4 {
     font-weight: 900;
 }
 
-.a11y-nav{
-    position: absolute;
-    top: -10em;
-    z-index:100;
-    width: 100%;
-}
-
-.a11y-nav a{
-    background-color:#FFFFFF ;
-    font-weight: 700;
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    /* top: 10em; */
-    padding: 0.5REM 0;
-}
-
 .a11y-nav a :focus,
 .al1y-nav a :hover{
 top: 10em;
 
 }
 
- a:focus, a:hover {
-   color: white;
-   text-decoration:underline;
- }
+button:focus,
+a:focus {
+    outline: 3px solid rgb(0, 0, 255)!important;
+    outline-offset: 3px!important;
+    border-radius: 5px;
+}
+
+.contact-card p{
+
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    text-align: center;
+    font-size: 22px;
+    border:solid 1px grey;
+    border-radius: 9px;
+    padding: .2em;
+}
+#form_1 label{
+    font-size: 20px;
+}
+#form_1 input,
+#form_1 textarea{
+    outline:double;
+}
