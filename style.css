@@ -692,7 +692,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -750,7 +750,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(99, 88, 59, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -769,10 +769,13 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    color: black;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f7f7f7!important;
+    font-size: 40px;
+
 }
 
 .btn-atomic-tangerine {
@@ -1037,3 +1040,55 @@ h4 {
         text-align: center;
     }
 }
+
+.description{
+    color: black;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 1.5em;
+}
+.better-font-size{
+    font-size: 16px;
+}
+
+.whitness{
+    font-size: 20px;
+}
+
+.real-txt{
+    font-size: 20px;
+    color: black;
+}
+
+.bolded{
+    font-weight: 900;
+}
+
+.a11y-nav{
+    position: absolute;
+    top: -10em;
+    z-index:100;
+    width: 100%;
+}
+
+.a11y-nav a{
+    background-color:#FFFFFF ;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* top: 10em; */
+    padding: 0.5REM 0;
+}
+
+.a11y-nav a :focus,
+.al1y-nav a :hover{
+top: 10em;
+
+}
+
+ a:focus, a:hover {
+   color: white;
+   text-decoration:underline;
+ }
