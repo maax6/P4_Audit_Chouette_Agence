@@ -54,6 +54,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+    line-height: 50px;
 }
 
 .bg-center,
@@ -1064,12 +1065,6 @@ h4 {
     font-weight: 900;
 }
 
-.a11y-nav a :focus,
-.al1y-nav a :hover{
-top: 10em;
-
-}
-
 button:focus,
 a:focus {
     outline: 3px solid rgb(0, 0, 255)!important;
@@ -1078,15 +1073,24 @@ a:focus {
 }
 
 .contact-card p{
-
-    display: flex;
-    justify-content: center;
-    line-height: 50px;
-    text-align: center;
-    font-size: 22px;
     border:solid 1px grey;
     border-radius: 9px;
-    padding: .2em;
+    padding-top:25px;
+    padding-left: 15px;
+}
+.contact-card span{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    line-height: 20px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.contact-card span i{
+color: #8f3206;
+padding-right: 15px;
 }
 #form_1 label{
     font-size: 20px;
