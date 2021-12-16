@@ -1099,3 +1099,10 @@ padding-right: 15px;
 #form_1 textarea{
     outline:double;
 }
+.whitness{
+    font-size: 22px;
+}
+.whitness figcaption{
+    color:black;
+    
+}
